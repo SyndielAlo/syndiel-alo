@@ -1,0 +1,30 @@
+
+Step 1 install necessary apps ; git,Visual code and js node. 
+
+step 2 create a directory command promt or new folder.
+
+step 3 open the created folder or directory with Visual code.
+
+step 4 open new termenal.
+
+step 5 install package.json by using 
+ npm init -y
+
+Step 6 install webpack globaly
+npm install webpack -g
+
+Step 7 install webpack cli
+ npm i webpack webpack-cli -D
+
+Step 8  create a src and dist directory
+mkdir src and dist
+
+step 9 create a webpack config file and paste this code
+Step 10 create or log in firebase console
+
+
+Step 11 install firebase 
+npm install firebase 
+
+Step 11 install firebase cli
+npm install -g firebase-tools
