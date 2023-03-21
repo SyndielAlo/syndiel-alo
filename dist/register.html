@@ -24,10 +24,23 @@
               <div class="row">
             
                 <div class="col-sm-4">
+
+                  <div class="form-group">
+                    <label for="name" >NAME</label>
+                    <input type="text" name="name" id="name" class="form-control"  placeholder="Enter your name">
+                  </div>
+
+
+                  <div class="form-group">
+                    <label for="address" >Adress</label>
+                    <input type="address" name="address" id="address" class="form-control"  placeholder="Enter your address">
+                  </div>
+
                     <div class="form-group">
                       <label for="email">Email</label>
                       <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email">
                     </div>
+                     
                     
                     <div class="form-group">
                       <label for="password" >Password</label>
@@ -74,6 +87,8 @@ console.log(app);
 document.getElementById("register").addEventListener("click", function() {
   var email =  document.getElementById("email").value;
   var password = document.getElementById("password").value;
+  var name = document.getElementById("name").value;
+  var address = document.getElementById("name").value;
   
   //For new registration
   createUserWithEmailAndPassword(auth, email, password).then((userCredential) => {
