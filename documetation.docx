@@ -19,12 +19,68 @@ Step 7 install webpack cli
 Step 8  create a src and dist directory
 mkdir src and dist
 
-step 9 create a webpack config file and paste this code
-Step 10 create or log in firebase console
+Step 10  create index.html(put it in dist) and index.js(put in scr) then design your web page in css (put in dist).
 
 
-Step 11 install firebase 
+
+Step 11 create or log in firebase console
+
+
+Step 12 install firebase 
 npm install firebase 
 
-Step 11 install firebase cli
+Step 13 cofigure index.js and copy the script that can be found in firebase console.
+
+Step 14 create a bundle.js 
+npm run build 
+
+Step 15 install firebase cli
 npm install -g firebase-tools
+
+Step 16 put code in github
+
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/SyndielAlo/syndiel-alo 
+git push -u origin main.
+
+step 17 firebase login
+
+Step 18 firebase init
+
+
+Step 19 deploy to firebase
+
+firebase deploy
+
+
+
+
+
+
+
+Lab2 auth fuction 
+
+step 1
+create a html login form
+
+step 2
+create a html register form
+
+step 3
+in index.js import firebase auth and run npm run build to refresh bundle.js
+
+step 5
+go to firebase console and go to authetication  
+click get started
+choose sign in method (mine is email and passwor)
+
+step 6
+
+add a script in the login and register form to create a registration  and login function.
+
+
+
+hosting link: https://syndiel-alo.web.app
+github link: https://github.com/SyndielAlo/syndiel-alo

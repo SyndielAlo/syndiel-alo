@@ -15,6 +15,7 @@
     "webpack-cli": "^5.0.1"
   },
   "dependencies": {
-    "firebase": "^9.17.1"
+    "firebase": "^9.17.1",
+    "react-router": "^6.9.0"
   }
 }
